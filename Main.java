@@ -1,12 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        int a=987;
-        int b=657;
-        String s=String.valueOf(a);
-        String d=Integer.toString(b);
-        System.out.println(s);
+        long a=400;
+        long b=250;
+        long c=(byte)a;
+        long d=(byte)b;
+        //data loss occur
+        System.out.println(c);
         System.out.println(d);
-
-
     }
 }
